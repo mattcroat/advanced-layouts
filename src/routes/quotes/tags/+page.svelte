@@ -21,8 +21,8 @@
 	.tags a {
 		padding: 0.4rem 0.8rem;
 		border-radius: 1rem;
-		background: hsl(206 29% 4%);
-		border: 1px solid hsl(206 29% 12%);
+		background: hsl(206 29% 10%);
+		border: 1px solid hsl(206 29% 14%);
 	}
 
 	.tags a:hover {

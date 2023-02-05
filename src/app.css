@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 @import 'https://unpkg.com/@picocss/pico@1.*/css/pico.min.css';
 
+html,
 body {
-	padding: 1rem 2rem;
+	height: 100%;
+}
+
+body::after {
+	content: '';
+	position: fixed;
+	inset: 0;
+	background: radial-gradient(
+		hsl(206 29% 16%),
+		hsl(206 29% 8%)
+	);
+	z-index: -10;
 }
 
 h2,
@@ -21,6 +33,7 @@ input,
 button,
 textarea {
 	border-radius: 1rem;
+	--border-color: hsl(206 29% 16%);
 }
 
 .cover {
@@ -44,6 +57,7 @@ textarea {
 .container {
 	max-width: 800px;
 	margin-inline: auto;
+	padding: 2rem 0;
 }
 
 .serif {

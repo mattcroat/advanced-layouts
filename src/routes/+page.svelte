@@ -1,7 +1,7 @@
 <div class="hero space">
 	<div class="title">
 		<h1 class="serif capitalize">
-			Find and share memorable quotes that inspire you
+			Discover and share inspiring quotes
 		</h1>
 	</div>
 
@@ -9,12 +9,8 @@
 		<article>
 			<p class="serif">“What, You Egg!” — Shakespeare</p>
 
-			<div class="tags">
-				<a href="/quotes/tags/drama">#drama</a>
-			</div>
-
 			<footer>
-				<a href="/quotes/id/1234">Share →</a>
+				<a href="/quotes">Discover more quotes →</a>
 			</footer>
 		</article>
 	</div>
@@ -22,9 +18,11 @@
 
 <style>
 	.hero {
+		position: relative;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(4, 140px);
+		z-index: 10;
 	}
 
 	.hero::after {
@@ -33,7 +31,13 @@
 		grid-column: 3 / -1;
 		background-image: url('cover.jpg');
 		background-size: cover;
-		border-radius: 1rem;
+		border: 10px solid;
+		border-image-slice: 1;
+		border-image-source: linear-gradient(
+			to left,
+			orange,
+			orangered
+		);
 		z-index: -10;
 	}
 
@@ -48,6 +52,7 @@
 	.quote {
 		grid-column: 1 / 4;
 		grid-row: 3;
+		padding: 1rem;
 	}
 
 	article {
