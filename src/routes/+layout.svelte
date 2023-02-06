@@ -1,14 +1,11 @@
 <script lang="ts">
-	import { Toy } from '@leveluptuts/svelte-toy'
-
-	import Visualize from '$lib/components/visualize.svelte'
-	import devTools from '$lib/stores/devtools'
+	import { DevTools, Visualize } from '$lib/devtools'
 
 	import '@picocss/pico'
 	import '../app.css'
 </script>
 
-<Toy register={{ devTools }} theme="dark" />
+<DevTools />
 
 <Visualize layout="root">
 	<div class="container">

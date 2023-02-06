@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Visualize from '$lib/components/visualize.svelte'
+	import { Visualize } from '$lib/devtools'
 	import type { LayoutData } from './$types'
 
 	export let data: LayoutData

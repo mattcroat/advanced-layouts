@@ -1,5 +1,5 @@
 <script lang="ts">
-	import devTools from '$lib/stores/devtools'
+	import devTools from './store'
 
 	export let layout: string
 </script>

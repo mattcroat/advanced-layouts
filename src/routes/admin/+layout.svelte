@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Visualize from '$lib/components/visualize.svelte'
+	import { Visualize } from '$lib/devtools'
 </script>
 
 <h2 class="serif space">Dashboard</h2>
