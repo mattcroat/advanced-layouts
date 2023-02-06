@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@picocss/pico": "^1.5.7",
 		"zod": "^3.20.2"
 	}
 }
