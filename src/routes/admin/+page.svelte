@@ -2,6 +2,8 @@
 	import { enhance } from '$app/forms'
 </script>
 
+<h3 class="serif capitalize">Add quote</h3>
+
 <form method="POST" use:enhance>
 	<label for="author">
 		Author
