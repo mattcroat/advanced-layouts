@@ -19,18 +19,20 @@
 		</nav>
 	</header>
 
-	<main class="space" style:--space="2rem">
+	<main>
 		<slot />
 	</main>
 </Visualize>
 
 <style>
 	header {
-		border-bottom: 1px solid hsl(206 29% 20%);
-		padding-inline: 1rem;
+		padding-inline: 2rem;
+		background: hsl(206 29% 6%);
+		border-bottom: 1px solid hsl(206 29% 12%);
 	}
 
 	main {
-		padding-inline: 1rem;
+		padding: 2rem;
+		background: hsl(206 29% 8%);
 	}
 </style>
