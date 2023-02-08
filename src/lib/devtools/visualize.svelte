@@ -14,12 +14,14 @@
 
 <style>
 	[data-layout] {
+		position: relative;
 		border: 8px solid aqua;
 	}
 
 	[data-layout]::before {
 		content: attr(data-layout) ' layout';
-		margin-left: 0.2rem;
+		position: absolute;
+		left: 8px;
 		font-weight: bold;
 		text-transform: uppercase;
 		color: aqua;
