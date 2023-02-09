@@ -1,26 +1,35 @@
 # SvelteKit Group Layouts
 
-This includes the starter and finished example showing how to use SvelteKit group layouts.
+This includes the starter and solution example that shows how to use SvelteKit group layouts.
 
-## Developing
+## Remote Development With StackBlitz
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mattcroat/group-layouts)
 
-```bash
-npm run dev
+## Local Development
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+### 🧑‍🤝‍🧑 Clone the starter
+
+```sh
+https://github.com/mattcroat/group-layouts.git
 ```
 
-## Building
+### 📦️ Install dependencies
 
-To create a production version of your app:
-
-```bash
-npm run build
+```sh
+pnpm i
 ```
 
-You can preview the production build with `npm run preview`.
+## 💿️ Run the development server
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```sh
+pnpm run dev
+```
+
+## 🔥 Solution
+
+Switch to the `solution` branch and run the development server.
+
+```sh
+git checkout solution
+```
