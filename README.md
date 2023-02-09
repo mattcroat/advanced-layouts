@@ -2,7 +2,7 @@
 
 This includes the starter and solution example that shows how to use SvelteKit group layouts.
 
-## Remote Development With StackBlitz
+## Remote Development
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mattcroat/group-layouts)
 
