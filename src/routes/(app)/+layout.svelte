@@ -2,7 +2,7 @@
 	import { Visualize } from '$lib/devtools'
 </script>
 
-<Visualize layout="root">
+<Visualize layout="app">
 	<div class="container">
 		<nav>
 			<ul>
@@ -27,11 +27,6 @@
 		<slot />
 	</div>
 </Visualize>
-
-<svelte:head>
-	<link rel="icon" href="https://fav.farm/🪶" />
-	<title>Plume</title>
-</svelte:head>
 
 <style>
 	.landing {
